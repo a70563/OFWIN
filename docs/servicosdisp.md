@@ -14,4 +14,4 @@
 ## Vantagens de ser nosso cliente:
 + Serviços rápidos e baratos;
 + Clientes regulares só precisam de criar ficha uma vez;
-+ Descontos a clientes regulares.
++ Descontos a clientes regulares. 

@@ -73,7 +73,7 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'oficinaSidebar',
+            sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Oficina',
           },
@@ -156,6 +156,6 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-};
+}; 
 
 module.exports = config;
