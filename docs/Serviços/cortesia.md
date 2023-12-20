@@ -14,4 +14,9 @@
 | 15€ | Classe B | Pegeut 308 ou parecido. |
 | 20€ | Classe C | Skoda Octavia ou parecido . |
 | 25€ | Classe D | Citroen C4 ou parecido |
+<<<<<<< HEAD
 
+=======
+ 
+ 
+>>>>>>> 75281c2f8cfa090a60e3aea490e5d9cdbc12ac80

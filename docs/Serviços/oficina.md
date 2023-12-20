@@ -14,7 +14,11 @@
 | 90,00 | 15 minutos | Troca de bateria. |
 | 250,00 | 30 minutos |Recarga de Ar condicionado|
 
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 75281c2f8cfa090a60e3aea490e5d9cdbc12ac80
 ## Preçário de serviços mecânicos:
 
 | Preço p/hora | Descrição |

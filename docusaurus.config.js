@@ -18,7 +18,11 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
+<<<<<<< HEAD
   organizationName: 'a70563_a64108', // Usually your GitHub org/user name.
+=======
+  organizationName: 'a70563 and a64108', // Usually your GitHub org/user name.
+>>>>>>> 75281c2f8cfa090a60e3aea490e5d9cdbc12ac80
   projectName: 'OFICINA WINRAR', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
@@ -77,7 +81,11 @@ const config = {
             position: 'left',
             label: 'Oficina',
           },
+<<<<<<< HEAD
           {to: '/blog', label: 'Sobre Nós', position: 'left'},
+=======
+          {to: '/blog', label: 'Sobre nós', position: 'left'},
+>>>>>>> 75281c2f8cfa090a60e3aea490e5d9cdbc12ac80
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -89,11 +97,28 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Oficina',
+            title: 'Serviços:',
             items: [
               {
+<<<<<<< HEAD
                 label: 'Serviços',
                 to: '/docs/Serviços',
+=======
+                label: 'Serviços Disponiveis',
+                to: 'docs/servicosdisp',
+              },
+              {
+                label: 'Oficina',
+                to: 'docs/serviços/oficina',
+              },
+              {
+                label: 'Cortesia',
+                to: 'docs/serviços/cortesia',
+              },
+              {
+                label: 'Recrutamento',
+                to: 'docs/serviços/recrutamento',
+>>>>>>> 75281c2f8cfa090a60e3aea490e5d9cdbc12ac80
               },
             ],
           },
@@ -101,29 +126,38 @@ const config = {
             title: 'Redes Sociais',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Facebook',
+                href: 'https://www.facebook.com/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Instagram',
+                href: 'https://www.instagram.com/',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Informação',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Contactos',
+                to: 'contactonos',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Recrutamento',
+                to: '/docs/recrutamento',
+              },
+            ],
+          },
+          {
+            title: 'Localizações:',
+            items: [
+              {
+                label: 'Oficina de Faro',
+                href: 'https://www.google.com/search?q=37.011698987033604%2C+-7.921883972344417&rlz=1C1ONGR_pt-PTPT1017PT1017&oq=37.011698987033604%2C+-7.921883972344417&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg70gEHMTkxajBqNKgCALACAA&sourceid=chrome&ie=UTF-8',
               },
             ],
           },
@@ -135,6 +169,6 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-};
+}; 
 
 module.exports = config;
