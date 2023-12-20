@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Serviços',
+    Svg: require('@site/static/img/servicos.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        OFICINA WINRAR, foi criada para ter o melhor servço possível. Um conjunto de possibilidades para a sua satisfação.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Cortesia',
+    Svg: require('@site/static/img/cortesia.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Viaturas de cortesia para substituição do seu veículo, ou aluguer. <code>docs</code> directory.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Recrutamento',
+    Svg: require('@site/static/img/recrutamento.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Desejamos recrutar pessoas qualificadas para fazerem parte da nossa empresa, e evoluirem com a mesma.
       </>
     ),
   },
