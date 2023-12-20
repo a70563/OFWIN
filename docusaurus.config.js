@@ -18,7 +18,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'a70563', // Usually your GitHub org/user name.
+  organizationName: 'a70563 and a64108', // Usually your GitHub org/user name.
   projectName: 'OFICINA WINRAR', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
@@ -29,8 +29,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'pt',
+    locales: ['pt'],
   },
 
   presets: [
