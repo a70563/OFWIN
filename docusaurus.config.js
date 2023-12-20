@@ -29,8 +29,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'pt',
-    locales: ['pt'],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
@@ -92,8 +92,8 @@ const config = {
             title: 'Serviços:',
             items: [
               {
-                label: 'Serviços',
-                to: '/docs/Serviços',
+                label: 'Cortesia',
+                to: '/docs/Serviços/cortesia',
               },
             ],
           },
@@ -119,7 +119,7 @@ const config = {
             items: [
               {
                 label: 'Contactos',
-                to: 'contactonos',
+                to: '/src/pages/contactonos',
               },
               {
                 label: 'Recrutamento',
@@ -137,7 +137,7 @@ const config = {
             ],
           },
         ],
-        copyright: 'Copyright © ${new Date().getFullYear()} OFICINA WINRAR, Inc. Built with Docusaurus.',
+        copyright: `Copyright © ${new Date().getFullYear()} docusaurus, Inc. Built with Docusaurus.`
       },
       prism: {
         theme: lightCodeTheme,
@@ -147,3 +147,4 @@ const config = {
 }; 
 
 module.exports = config;
+export default config;
