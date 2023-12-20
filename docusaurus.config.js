@@ -18,11 +18,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-<<<<<<< HEAD
   organizationName: 'a70563_a64108', // Usually your GitHub org/user name.
-=======
-  organizationName: 'a70563 and a64108', // Usually your GitHub org/user name.
->>>>>>> 75281c2f8cfa090a60e3aea490e5d9cdbc12ac80
   projectName: 'OFICINA WINRAR', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
@@ -81,11 +77,7 @@ const config = {
             position: 'left',
             label: 'Oficina',
           },
-<<<<<<< HEAD
           {to: '/blog', label: 'Sobre Nós', position: 'left'},
-=======
-          {to: '/blog', label: 'Sobre nós', position: 'left'},
->>>>>>> 75281c2f8cfa090a60e3aea490e5d9cdbc12ac80
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -100,25 +92,8 @@ const config = {
             title: 'Serviços:',
             items: [
               {
-<<<<<<< HEAD
                 label: 'Serviços',
                 to: '/docs/Serviços',
-=======
-                label: 'Serviços Disponiveis',
-                to: 'docs/servicosdisp',
-              },
-              {
-                label: 'Oficina',
-                to: 'docs/serviços/oficina',
-              },
-              {
-                label: 'Cortesia',
-                to: 'docs/serviços/cortesia',
-              },
-              {
-                label: 'Recrutamento',
-                to: 'docs/serviços/recrutamento',
->>>>>>> 75281c2f8cfa090a60e3aea490e5d9cdbc12ac80
               },
             ],
           },
