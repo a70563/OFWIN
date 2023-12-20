@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Test Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'OFICINA WINRAR',
+  tagline: 'Tudo o que necessita ao seu dispor o mais rápido possível.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -18,7 +18,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'a70563', // Usually your GitHub org/user name.
+  organizationName: 'a70563_a64108', // Usually your GitHub org/user name.
   projectName: 'OFICINA WINRAR', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
@@ -29,8 +29,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'pt',
+    locales: ['pt'],
   },
 
   presets: [
@@ -73,11 +73,11 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'OficinaSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Oficina',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Sobre Nós', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -92,13 +92,13 @@ const config = {
             title: 'Oficina',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Serviços',
+                to: '/docs/Serviços',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Redes Sociais',
             items: [
               {
                 label: 'Stack Overflow',
