@@ -123,7 +123,7 @@ const config = {
               },
               {
                 label: 'Quem Somos',
-                to: '/src/pages/quemsomos',
+                to: '/src/blog/quemsomos',
               },
               {
                 label: 'Recrutamento',
