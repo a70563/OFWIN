@@ -18,8 +18,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'a70563_a64108', // Usually your GitHub org/user name.
-  projectName: 'OFICINA WINRAR', // Usually your repo name.
+  organizationName: 'a70563', // Usually your GitHub org/user name.
+  projectName: 'OFWIN', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
@@ -120,6 +120,10 @@ const config = {
               {
                 label: 'Contactos',
                 to: '/src/pages/contactonos',
+              },
+              {
+                label: 'Quem Somos',
+                to: '/src/pages/quemsomos',
               },
               {
                 label: 'Recrutamento',
